@@ -1,0 +1,16 @@
+user:
+    resource: "@userBundle/Controller/"
+    type:     annotation
+    prefix:   /user
+
+ticket:
+    resource: "@TicketBundle/Controller/"
+    type:     annotation
+    prefix:   /t
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+hackzilla_ticket:
+    resource: "@HackzillaTicketBundle/Resources/config/routing/ticket.yml"
+    prefix:   /
