@@ -48,4 +48,4 @@ script:
 
 # After a build, send email notification with the build results
 notifications:
-  email: ajimenez.bf@gmail.com
+  email: gaineryns@gmail.com
