@@ -4,7 +4,7 @@
 parameters:
     database_host:     steveyongwo.com
     database_port:     ~
-    database_name:     symfony_help
+    database_name:     symfony_helpdesk
     database_user:     gaineryns
     database_password: gaineryns
     # You should uncomment this if you want use pdo_sqlite
