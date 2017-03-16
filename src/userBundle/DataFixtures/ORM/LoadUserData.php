@@ -52,6 +52,15 @@ class LoadUserData
         $user1->addRole('ROLE_SUPER_ADMIN');
         $this->addReference('admin-admin', $user1);
         $userManager->updateUser($user1);
+        
+         $user2 = $userManager->createUser();
+        $user2->setUsername('admin');
+        $user2->setEmail('admin@admin.com');
+        $user2->setPlainPassword('admin');
+        $user2->setEnabled(true);
+        $user2->addRole('ROLE_SUPER_ADMIN');
+        $this->addReference('admin-admin', $user2);
+        $userManager->updateUser($user2);
     }
 
     /**
